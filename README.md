@@ -55,16 +55,12 @@ blog.codecorps.org/      # → Root folder for this project
 
 Bedrock documentation is available at [https://roots.io/bedrock/docs/](https://roots.io/bedrock/docs/).
 
+Sage documentation is available at [https://roots.io/sage/docs/](https://roots.io/sage/docs/).
+
 ## Contributing
 
-Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
+Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/blog.codecorps.org-site/blob/master/CONTRIBUTING.md) to help you get started.
 
 ## Community
 
-Keep track of development and community news.
-
-* Participate on the [Roots Discourse](https://discourse.roots.io/)
-* Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-* Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-* Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
-* Listen to the [Roots Radio podcast](https://roots.io/podcast/)
+Join the Code Corps community at [https://codecorps.org/code-corps/code-corps]([https://codecorps.org/code-corps/code-corps])
