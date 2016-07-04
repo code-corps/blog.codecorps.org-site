@@ -19,6 +19,8 @@
       <?php get_template_part('templates/parts/social-share'); ?>
 
       <?php get_template_part('templates/parts/subscription-box'); ?>
+        
+      <?php get_template_part('templates/parts/disqus-comments'); ?>
     </div>
 
     <div class="sidebar">
