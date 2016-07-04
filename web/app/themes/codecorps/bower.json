@@ -1,0 +1,38 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prism": "*"
+  },
+  "overrides": {
+    "prism": {
+      "main": [
+        "./prism.js",
+        "./components/prism-bash.js",
+        "./components/prism-c.js",
+        "./components/prism-css.js",
+        "./components/prism-elixir.js",
+        "./components/prism-erlang.js",
+        "./components/prism-git.js",
+        "./components/prism-handlebars.js",
+        "./components/prism-javascript.js",
+        "./components/prism-json.js",
+        "./components/prism-markdown.js",
+        "./components/prism-python.js",
+        "./components/prism-ruby.js",
+        "./components/prism-sass.js",
+        "./components/prism-scss.js",
+        "./components/prism-sql.js",
+        "./components/prism-swift.js",
+        "./components/prism-yaml.js",
+        "./themes/prism.css",
+        "./themes/prism-okaidia.css"
+      ]
+    }
+  }
+}
