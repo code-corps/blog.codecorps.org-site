@@ -35,6 +35,19 @@ Use [Trellis](https://github.com/code-corps/blog.codecorps.org-trellis-public) f
 
 ## Installation
 
+Clone this repository along with Trellis into the following directory structure:
+
+```shell
+blog.codecorps.org/      # → Root folder for this project
+├── trellis-public/      # → Your clone of the [public Trellis repository](https://github.com/code-corps/blog.codecorps.org-trellis-public)
+├── trellis/             # → Your clone of the private Trellis repository (acccess limited; made private for security reasons)
+└── site/                # → A Bedrock-based WordPress site
+    └── web/
+        ├── wp/          # → WordPress core (don't touch!)
+        └── app/         # → WordPress content directory (themes, plugins, etc.)
+            └── web/themes/codecorps  # → Code Corps theme directory (where most of the blog dev work should happen)
+```
+
 1. Create a new project - `composer create-project roots/bedrock`
  Access WP admin at `http://codecorps.dev/wp/wp-admin`
 
