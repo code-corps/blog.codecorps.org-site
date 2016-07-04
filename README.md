@@ -21,10 +21,10 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 Use [Trellis](https://github.com/code-corps/blog.codecorps.org-trellis-public) for additional features:
 
-### Publicly available:
+#### Publicly available:
 * Easy development environments with [Vagrant](http://www.vagrantup.com/)
 
-### Privately held, for security:
+#### Privately held, for security:
 * Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 14.04, PHP 5.6 or HHVM, MariaDB)
 * One-command deploys
 
