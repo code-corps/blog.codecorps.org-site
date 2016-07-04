@@ -41,7 +41,7 @@ Clone this repository along with Trellis into the following directory structure:
 blog.codecorps.org/      # → Root folder for this project
 ├── trellis-public/      # → Your clone of the public Trellis repository
 ├── trellis/             # → Your clone of the private Trellis repository (acccess limited; private for security)
-└── site/                # → A Bedrock-based WordPress site
+└── site/                # → Your clone of this respoitory, a Bedrock-based WordPress site
     └── web/
         ├── wp/          # → WordPress core (don't touch!)
         └── app/         # → WordPress content directory (themes, plugins, etc.)
