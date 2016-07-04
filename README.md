@@ -1,5 +1,6 @@
-# [Bedrock](https://roots.io/bedrock/)
-[![Build Status](https://travis-ci.org/roots/bedrock.svg)](https://travis-ci.org/roots/bedrock)
+# Code Corps WordPress (Bedrock + Sage)
+
+![Code Corps Bedrock + Sage Logo](https://d3pgew4wbk2vb1.cloudfront.net/images/github/code-corps-site.png)
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
