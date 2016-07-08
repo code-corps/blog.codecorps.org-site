@@ -8,7 +8,7 @@
             <div class="nav-content">
               <ul class="header-nav main-nav left">
                  <li><a href="https://codecorps.org/projects">Projects</a></li>
-                 <li><a href="<?php echo get_home_url(); ?>">Blog</a></li>
+                 <li><a class="active" href="<?php echo get_home_url(); ?>">Blog</a></li>
               </ul>
               <ul class="header-nav auth-nav right">
                 <form class="email-signup" target="_blank" action="//codecorps.us12.list-manage.com/subscribe/post?u=49ce469254e4d9eda0acd3adb&amp;id=882fad51bb" method="post">
