@@ -558,7 +558,7 @@ nav{
   color: #333;
 }
 
-.header-nav a:hover {
+.header-nav a:hover, .header-nav a.active {
   color: $primary-color;
   border-bottom-color: $primary-color;
   transition: border-bottom-color ease 0.3s;
