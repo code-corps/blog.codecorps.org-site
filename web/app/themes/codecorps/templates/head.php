@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Code Corps | Build a better future.</title>
+  <title><?php wp_title(); ?></title>
   <meta name="description" content="Contribute to software projects for social good.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
