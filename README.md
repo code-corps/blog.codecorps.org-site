@@ -48,10 +48,32 @@ blog.codecorps.org/      # → Root folder for this project
             └── web/themes/codecorps  # → Code Corps theme directory (where most blog dev work will happen)
 ```
 
-1. Create the main project directory (if not already created): `$ mkdir blog.codecorps.org && cd blog.codecorps.org`
-2. Clone Trellis: `$ git clone git@github.com:code-corps/blog.codecorps.org-trellis-public.git trellis-public`
-3. Clone the site: `$ git clone git@github.com:code-corps/blog.codecorps.org-site.git site`
-4. Install the Ansible Galaxy roles: `$ cd trellis && ansible-galaxy install -r requirements.yml`
+1. Create the main project directory (if not already created):
+
+```shell
+mkdir blog.codecorps.org
+cd blog.codecorps.org
+```
+
+2. Clone Trellis:
+
+```shell
+git clone git@github.com:code-corps/blog.codecorps.org-trellis-public.git trellis-public
+```
+
+3. Clone the site:
+
+```shell
+git clone git@github.com:code-corps/blog.codecorps.org-site.git site
+```
+
+4. Install the Ansible Galaxy roles:
+
+```shell
+cd trellis-public && ansible-galaxy install -r requirements.yml
+```
+
+5. Run locally inside `trellis-public`. [Read those docs](https://github.com/code-corps/blog.codecorps.org-trellis-public#local-development-setup) for more,
 
 Windows user? [Read the Trellis Windows docs](https://roots.io/trellis/docs/windows/) for slightly different installation instructions. Please modify them to match these docs. VirtualBox is known to have poor performance in Windows — use VMware or [see some possible solutions](https://discourse.roots.io/t/virtualbox-performance-in-windows/3932).
 
