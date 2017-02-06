@@ -13,7 +13,15 @@
 
     <div class="blog-post">
       <?php get_template_part('templates/parts/social-share'); ?>
-
+      
+      <p style="font-style: italic;">
+        <strong>Posted</strong>: <?php the_date('F j, Y'); ?> at <?php the_time('g:i a'); ?>
+        <?php if (get_the_time() != get_the_modified_time())
+        { ?>
+          <br><strong>Updated</strong>: <?php the_modified_date('F j, Y'); ?> at <?php the_modified_time('g:i a');
+        } ?>
+      </p>
+      
       <?php the_content(); ?>
 
       <?php get_template_part('templates/parts/social-share'); ?>
