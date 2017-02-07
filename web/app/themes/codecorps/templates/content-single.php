@@ -14,13 +14,11 @@
     <div class="blog-post">
       <?php get_template_part('templates/parts/social-share'); ?>
       
-      <p style="font-style: italic;">
-        <strong>Posted</strong>: <?php the_date('F j, Y'); ?> at <?php the_time('g:i a'); ?>
+      <p>Posted: <?php the_date(get_option('date_format')); ?></p>
         <?php if (get_the_time() != get_the_modified_time())
         { ?>
-          <br><strong>Updated</strong>: <?php the_modified_date('F j, Y'); ?> at <?php the_modified_time('g:i a');
+      <p>Updated: <?php the_modified_date(get_option('date_format')); ?></p>
         } ?>
-      </p>
       
       <?php the_content(); ?>
 
