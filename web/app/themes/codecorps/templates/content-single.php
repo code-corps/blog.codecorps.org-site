@@ -14,12 +14,14 @@
     <div class="blog-post">
       <?php get_template_part('templates/parts/social-share'); ?>
       
-      <p>Posted: <?php the_date(get_option('date_format')); ?></p>
-        <?php if (get_the_time() != get_the_modified_time())
-        { ?>
-      <p>Updated: <?php the_modified_date(get_option('date_format')); ?></p>
-        } ?>
-      
+      <div class="post-dates">
+        <p class="date-display">Posted: <?php the_date(get_option('date_format')); ?></p>
+          <?php if (get_the_time() != get_the_modified_time())
+          { ?>
+        <p class="date-display">Updated: <?php the_modified_date(get_option('date_format')); ?></p>
+          } ?>
+      </div>
+        
       <?php the_content(); ?>
 
       <?php get_template_part('templates/parts/social-share'); ?>
